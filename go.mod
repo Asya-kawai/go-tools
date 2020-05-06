@@ -5,6 +5,7 @@ go 1.14
 require (
 	9fans.net/go v0.0.2 // indirect
 	github.com/cosiner/argv v0.1.0 // indirect
+	github.com/cweill/gotests v1.5.3 // indirect
 	github.com/go-delve/delve v1.4.0 // indirect
 	github.com/kisielk/errcheck v1.2.0 // indirect
 	github.com/mattn/go-colorable v0.1.6 // indirect

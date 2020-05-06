@@ -24,4 +24,10 @@ go get -u github.com/kisielk/errcheck
 go get -u github.com/cweill/gotests/...
 
 # For debug.
-go get -u github.com/go-delve/delve/cmd/dlv
+# Reference: https://github.com/go-delve/delve/blob/master/Documentation/installation/linux/install.md
+# Note: Can't execute 'go get ...' in module directory.
+CURRENT_DIR=$(pwd)
+git clone https://github.com/go-delve/delve.git $GOPATH/src/github.com/go-delve/delve
+cd $GOPATH/src/github.com/go-delve/delve
+make install
+cd ${CURRENT_DIR}

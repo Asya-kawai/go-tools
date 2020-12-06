@@ -23,6 +23,11 @@ go get -u github.com/kisielk/errcheck
 # For generator test template.
 go get -u github.com/cweill/gotests/...
 
+# For gRPC generator.
+# If you have not installed protoc yet, see below to install protoc.
+# https://grpc.io/docs/protoc-installation/
+go get -u github.com/golang/protobuf/protoc-gen-go
+
 # For debug.
 # Reference: https://github.com/go-delve/delve/blob/master/Documentation/installation/linux/install.md
 # Note: Can't execute 'go get ...' in module directory.

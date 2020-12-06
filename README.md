@@ -2,8 +2,8 @@
 
 This repository collects useful go modules.
 
-We always execute `bash install.sh` and install the latest packages.
+We always run `bash install.sh` to install the latest packages.
 
-It is just a example to collect and manage for outside of modules.
+This is just an example for collecting and managing outside the module.
 
-I hope it helps.
+If its helpful then im happy.

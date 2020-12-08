@@ -23,6 +23,9 @@ go get -u github.com/kisielk/errcheck
 # For generator test template.
 go get -u github.com/cweill/gotests/...
 
+# For protocol buffer generator for go.
+go install google.golang.org/protobuf/cmd/protoc-gen-go
+
 # For debug.
 # Reference: https://github.com/go-delve/delve/blob/master/Documentation/installation/linux/install.md
 # Note: Can't execute 'go get ...' in module directory.

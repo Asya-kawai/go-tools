@@ -5,6 +5,10 @@
 go mod init go-tools
 
 # ###
+# Initialize packages
+go mod tidy
+
+# ###
 # Install commands.
 
 # For auto-complete packages in project.
@@ -24,7 +28,9 @@ go get -u github.com/kisielk/errcheck
 go get -u github.com/cweill/gotests/...
 
 # For protocol buffer generator for go.
-go install google.golang.org/protobuf/cmd/protoc-gen-go
+# Note: v2 does not work!
+#go install google.golang.org/protobuf/cmd/protoc-gen-go
+go install github.com/golang/protobuf/protoc-gen-go
 
 # For debug.
 # Reference: https://github.com/go-delve/delve/blob/master/Documentation/installation/linux/install.md

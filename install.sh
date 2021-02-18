@@ -32,9 +32,6 @@ go get -u github.com/cweill/gotests/...
 #go install google.golang.org/protobuf/cmd/protoc-gen-go
 go get -u github.com/golang/protobuf/protoc-gen-go
 
-# For go repl(gore).
-go get -u github.com/motemen/gore/cmd/gore
-
 # For debug.
 # Reference: https://github.com/go-delve/delve/blob/master/Documentation/installation/linux/install.md
 # Note: Can't execute 'go get ...' in module directory.

@@ -32,6 +32,9 @@ go get -u github.com/cweill/gotests/...
 #go install google.golang.org/protobuf/cmd/protoc-gen-go
 go get -u github.com/golang/protobuf/protoc-gen-go
 
+# For pkgtwist which is checker whether installed packages are evil or not.
+go get gitlab.com/michenriksen/pkgtwist/cmd/pkgtwist
+
 # For debug.
 # Reference: https://github.com/go-delve/delve/blob/master/Documentation/installation/linux/install.md
 # Note: Can't execute 'go get ...' in module directory.
